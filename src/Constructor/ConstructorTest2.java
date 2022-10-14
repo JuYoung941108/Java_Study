@@ -3,7 +3,8 @@ package Constructor;
 class Car {
 	String owner, model;
 	int speed, fuel;
-
+	Car(){}
+	
 	Car(String owner, int speed, int fuel, String model) {
 		this.owner = owner;
 		this.speed = speed;
